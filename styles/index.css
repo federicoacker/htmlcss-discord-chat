@@ -10,3 +10,14 @@ body{
     width:100%;
     margin: 0 auto;
 }
+/*Whole Application*/
+.application-wrapper{
+    height: 100vh;
+}
+/*Main*/
+/*Sidebar*/
+/*Chats*/
+/* Footer */
+.footer{
+    flex-basis: 10vh;
+}

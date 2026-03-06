@@ -16,6 +16,24 @@
 .flex-grow-1{
     flex-grow:1;
 }
+.flex-shrink-0{
+    flex-shrink:0;
+}
+.flex-align-center{
+    align-items:center;
+}
 .h-0{
     height:0;
+}
+.bg-primary{
+    background-color:var(--bg-primary);
+}
+.bg-secondary{
+    background-color:var(--bg-secondary);
+}
+.bg-tertiary{
+    background-color:var(--bg-tertiary);
+}
+.bg-footer{
+    background-color:var(--bg-footer);
 }
