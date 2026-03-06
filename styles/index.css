@@ -16,6 +16,7 @@ body{
 }
 /*Main*/
 .main{
+    height:90vh;
     padding-top:1vh;
 }
 /*Servers*/
@@ -34,15 +35,31 @@ body{
 }
 .chat-img{
     display:block;
-    width:calc(100%/8);
+    width:calc(100%/10);
     aspect-ratio:1;
     border-radius:50%;
 }
 
 /*Chats Header*/
 .header-buttons{
+    align-items:flex-start;
     justify-content:center;
     list-style-type:none;
+    padding: 0 30px 0 0;
+}
+
+.btn.search-button{
+    flex-basis:25px;
+    border-radius:50%;
+    padding:5px;
+    border:0;
+    aspect-ratio:1;
+}
+.btn.add-friends-button{
+    width:100%;
+    border-radius:10px;
+    padding:5px ;
+    border:0;
 }
 
 /* Footer */

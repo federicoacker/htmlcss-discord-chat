@@ -32,8 +32,17 @@
 .flex-column-gap-10{
     column-gap:10px;
 }
+.flex-row-gap-10{
+    row-gap:10px;
+}
+.flex-row-gap-30{
+    row-gap:30px;
+}
 .h-0{
-    height:0;
+    flex-basis:0px;
+}
+.overflow-auto{
+    overflow:auto;
 }
 
 /*BG */
