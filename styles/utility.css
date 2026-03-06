@@ -63,3 +63,9 @@
 .secondary-text-color{
     color:var(--secondary-txt-color);
 }
+
+/*BUTTONS*/
+
+.btn{
+    display:block;
+}

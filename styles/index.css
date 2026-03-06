@@ -38,6 +38,13 @@ body{
     aspect-ratio:1;
     border-radius:50%;
 }
+
+/*Chats Header*/
+.header-buttons{
+    justify-content:center;
+    list-style-type:none;
+}
+
 /* Footer */
 .footer{
     flex-basis: 10vh;
