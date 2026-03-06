@@ -78,3 +78,14 @@
 .btn{
     display:block;
 }
+
+/*STATUS*/
+.online{
+    color: #39A65D;
+}
+.away{
+    color: #F4A71B;
+}
+.do-not-disturb{
+    color: #F94349;
+}
