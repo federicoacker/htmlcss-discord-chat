@@ -92,7 +92,7 @@ body {
 
 /*Chats*/
 .chats {
-  padding: 20px 0px 0px 20px;
+  padding: 20px 10px 0 20px;
 }
 .chats-header-title {
   margin-bottom: 10px;
@@ -100,7 +100,13 @@ body {
 .chat {
   align-items: center;
   width: 100%;
-  padding: 0 20px 20px 0;
+  padding: 10px 20px 20px 10px;
+  border-radius:10px;
+  transition: background-color 0.5s ease;
+}
+.chat:hover{
+    background:var(--bg-tertiary);
+    
 }
 .chat-img {
   display: block;
@@ -183,6 +189,7 @@ body {
   flex-basis: 10vh;
 }
 .footer-button {
+  width:calc(100%/3);
   background: none;
   outline: none;
   border: none;
@@ -198,6 +205,7 @@ body {
 }
 .profile-image {
   display: block;
+  margin: 0 auto;
   width: 30px;
   aspect-ratio: 1;
   border-radius: 50%;
