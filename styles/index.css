@@ -60,6 +60,10 @@ body {
   border: none;
   position: relative;
 }
+.discord-logo:hover,
+.btn.server:hover{
+    scale:110%;
+}
 .discord-logo:hover::after,
 .btn.server:hover::after {
   content: "";
@@ -67,7 +71,7 @@ body {
   position: absolute;
   bottom: 0;
   left: -25%;
-  translate: -115% 0;
+  translate: -50% 0;
   width: 10%;
   height: 100%;
   border-radius:5px;
