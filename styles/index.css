@@ -135,7 +135,31 @@ body {
   padding: 5px;
   border: 0;
 }
-
+/*Chats Footer*/
+.chats-footer{
+    justify-content:flex-end;
+    padding: 0 30px 0 0;
+}
+.new-chat{
+    background:none;
+    outline:none;
+    border:none;
+    position:relative;
+    color:white;
+}
+.new-chat::before{
+    content:"\F4FA";
+    font-family:bootstrap-icons!important;
+    font-size:30px;
+    position:absolute;
+    top:0;
+    left:50%;
+    translate: -50% -100%;
+    transition:content 0.3s ease;
+}
+.new-chat:hover::before{
+    content:"\F4F9";
+}
 /* Footer */
 .footer {
   flex-basis: 10vh;
