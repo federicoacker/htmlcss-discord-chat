@@ -9,6 +9,7 @@ body {
   max-width: 512px;
   width: 100%;
   margin: 0 auto;
+  font-family: "gg sans";
 }
 
 /*VARIABILI*/
@@ -20,6 +21,18 @@ body {
   --bg-footer: #2d2d35;
   --primary-txt-color: rgba(255, 255, 255, 1);
   --secondary-txt-color: rgba(255, 255, 255, 0.5);
+}
+
+/*FONTS*/
+@font-face {
+  font-family: "gg sans";
+  src: url(../fonts/gg\ sans\ Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gg sans bold";
+  src: url(../fonts/gg\ sans\ Bold.ttf);
+  font-weight: bold;
 }
 
 /*Whole Application*/
@@ -61,8 +74,8 @@ body {
   position: relative;
 }
 .discord-logo:hover,
-.btn.server:hover{
-    scale:110%;
+.btn.server:hover {
+  scale: 110%;
 }
 .discord-logo:hover::after,
 .btn.server:hover::after {
@@ -74,7 +87,7 @@ body {
   translate: -50% 0;
   width: 10%;
   height: 100%;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 /*Chats*/
@@ -85,17 +98,22 @@ body {
   margin-bottom: 10px;
 }
 .chat {
+  align-items: center;
   width: 100%;
   padding: 0 20px 20px 0;
 }
 .chat-img {
   display: block;
-  width: calc(100% / 10);
+  width: 42px;
   aspect-ratio: 1;
   border-radius: 50%;
+  object-fit: cover;
 }
 .chat-card {
   position: relative;
+}
+.chat-card-text {
+  font-size: 14px;
 }
 .status-icon {
   display: flex;
@@ -136,51 +154,51 @@ body {
   border: 0;
 }
 /*Chats Footer*/
-.chats-footer{
-    justify-content:flex-end;
-    padding: 0 30px 0 0;
+.chats-footer {
+  justify-content: flex-end;
+  padding: 0 30px 0 0;
 }
-.new-chat{
-    background:none;
-    outline:none;
-    border:none;
-    position:relative;
-    color:white;
+.new-chat {
+  background: none;
+  outline: none;
+  border: none;
+  position: relative;
+  color: white;
 }
-.new-chat::before{
-    content:"\F4FA";
-    font-family:bootstrap-icons!important;
-    font-size:30px;
-    position:absolute;
-    top:0;
-    left:50%;
-    translate: -50% -100%;
-    transition:content 0.3s ease;
+.new-chat::before {
+  content: "\F4FA";
+  font-family: bootstrap-icons !important;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50% -100%;
+  transition: content 0.3s ease;
 }
-.new-chat:hover::before{
-    content:"\F4F9";
+.new-chat:hover::before {
+  content: "\F4F9";
 }
 /* Footer */
 .footer {
   flex-basis: 10vh;
 }
-.footer-button{
-    background:none;
-    outline:none;
-    border:none;
+.footer-button {
+  background: none;
+  outline: none;
+  border: none;
 }
-.footer-label{
-    font-size:16px;
-    color:white;
-    margin: 3px 0;
+.footer-label {
+  font-size: 16px;
+  color: white;
+  margin: 3px 0;
 }
-.footer-icon{
-    color:white;
-    font-size:30px;
+.footer-icon {
+  color: white;
+  font-size: 30px;
 }
-.profile-image{
-    display:block;
-    width:30px;
-    aspect-ratio:1;
-    border-radius:50%;
+.profile-image {
+  display: block;
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
 }
