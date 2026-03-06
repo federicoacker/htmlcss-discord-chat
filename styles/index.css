@@ -44,6 +44,7 @@ body{
 }
 .chat{
     width:100%;
+    padding: 0 20px 20px 0;
 }
 .chat-img{
     display:block;
@@ -55,6 +56,9 @@ body{
     position:relative;
 }
 .status-icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
     position:absolute;
     bottom:0;
     left:0;
