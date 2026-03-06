@@ -244,14 +244,26 @@
 
                 </ul>
                 <footer class="chats-footer d-flex">
-                 <button class="new-chat">
+                    <button class="new-chat">
                         <p class="new-chat-text">Nuova Chat</p>
                     </button>
                 </footer>
 
             </section>
         </main>
-        <footer class="footer flex-shrink-0 bg-footer">
+        <footer class="footer flex-shrink-0 bg-footer d-flex flex-justify-evenly">
+            <button class="btn footer-button home-button">
+                <i class="bi bi-houses-fill footer-icon"></i>
+                <p class="home-button-label footer-label">Pagina principale</p>
+            </button>
+            <button class="btn footer-button notifications-button">
+                <i class="bi bi-bell-fill footer-icon"></i>
+                <p class="notifications-button-label footer-label">Notifiche</p>
+            </button>
+            <button class="btn footer-button profile-button">
+                <img class="profile-image" src="./imgs/profile1.webp" alt="Immagine del tuo profilo personale">
+                <p class="profile-button-lable footer-label">Tu</p>
+            </button>
         </footer>
     </div>
 </body>

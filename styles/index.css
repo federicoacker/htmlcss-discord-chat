@@ -164,3 +164,23 @@ body {
 .footer {
   flex-basis: 10vh;
 }
+.footer-button{
+    background:none;
+    outline:none;
+    border:none;
+}
+.footer-label{
+    font-size:16px;
+    color:white;
+    margin: 3px 0;
+}
+.footer-icon{
+    color:white;
+    font-size:30px;
+}
+.profile-image{
+    display:block;
+    width:30px;
+    aspect-ratio:1;
+    border-radius:50%;
+}
