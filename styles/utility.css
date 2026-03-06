@@ -49,6 +49,7 @@
 }
 .overflow-auto{
     overflow:auto;
+    scrollbar-width:none;
 }
 
 /*BG */
