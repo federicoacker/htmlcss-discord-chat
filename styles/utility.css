@@ -1,3 +1,5 @@
+/*VARIABILI*/
+
 :root{
     --bg-primary: #141318;
     --bg-secondary: #1C1D22;
@@ -6,6 +8,8 @@
     --primary-txt-color: rgba(255,255,255,1);
     --secondary-txt-color: rgba(255,255,255,0.5);
 }
+
+/*FLEX*/
 
 .d-flex{
     display:flex;
@@ -16,15 +20,24 @@
 .flex-grow-1{
     flex-grow:1;
 }
+.flex-grow-3{
+    flex-grow:3;
+}
 .flex-shrink-0{
     flex-shrink:0;
 }
 .flex-align-center{
     align-items:center;
 }
+.flex-column-gap-10{
+    column-gap:10px;
+}
 .h-0{
     height:0;
 }
+
+/*BG */
+
 .bg-primary{
     background-color:var(--bg-primary);
 }
@@ -36,4 +49,17 @@
 }
 .bg-footer{
     background-color:var(--bg-footer);
+}
+
+/*BORDER*/
+.b-radius-10{
+    border-radius:10px 0 0 0;
+}
+
+/*TEXT*/
+.primary-text-color{
+    color:var(--primary-txt-color);
+}
+.secondary-text-color{
+    color:var(--secondary-txt-color);
 }

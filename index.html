@@ -10,8 +10,30 @@
 <body>
     <div class="application-wrapper d-flex flex-column">
         <main class="main flex-grow-1 d-flex bg-primary">
-            <section class="servers">test</section>
-            <section class="chats">test</section>
+            <section class="servers flex-shrink-0 bg-primary"></section>
+            <section class="chats flex-grow-1 bg-secondary b-radius-10 d-flex flex-column">
+                <header class="chats-header">
+                    <h2 class="chats-header-title primary-text-color">Messaggi</h2>
+                    <ul class="header-buttons d-flex flex-column-gap-10 primary-text-color">
+                        <li>
+                            <button class="search-button">cerca</button>
+                        </li>
+                        <li>
+                            <button class="add-friends-button">Aggiungi amici</button>
+                        </li>
+                    </ul>
+                </header>
+                <ul class="chat-list d-flex flex-column">
+                    <li class="chat d-flex flex-column-gap-10">
+                        <img class="chat-img flex-shrink-0" src="imgs/profile1.webp" Foto del profilo di Giuseppe Rossi">
+                        <div class="chat-card flex-grow-1">
+                            <h4 class="chat-card-title secondary-text-color">Giuseppe Rossi</h4>
+                            <p class="chat-card-text secondary-text-color">ciao! tutto bene?</p>
+                        </div>
+                    </li>
+                </ul>
+                
+            </section>
         </main>
         <footer class="footer flex-shrink-0 bg-footer">
         </footer>

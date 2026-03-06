@@ -15,8 +15,29 @@ body{
     height: 100vh;
 }
 /*Main*/
-/*Sidebar*/
+.main{
+    padding-top:1vh;
+}
+/*Servers*/
+.servers{
+    flex-basis: 10vh;
+}
 /*Chats*/
+.chats{
+    padding: 20px 0px 0px 20px;
+}
+.chats-header-title{
+    margin-bottom: 10px
+}
+.chat{
+    width:100%;
+}
+.chat-img{
+    display:block;
+    width:calc(100%/8);
+    aspect-ratio:1;
+    border-radius:50%;
+}
 /* Footer */
 .footer{
     flex-basis: 10vh;
