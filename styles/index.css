@@ -32,8 +32,26 @@ body{
     padding-top:1vh;
 }
 /*Servers*/
+.main-logo{
+    width:6vh;
+    aspect-ratio:1;
+    display:block;
+    
+}
 .servers{
     flex-basis: 10vh;
+    align-items:center;
+    padding: 20px 0 0 0;
+}
+.server-image{
+    width:6vh;
+    aspect-ratio:1;
+    display:block;
+    border-radius:50%;
+}
+.btn.server{
+    background:none;
+    border-radius:50%;
 }
 /*Chats*/
 .chats{
@@ -93,6 +111,7 @@ body{
     padding:5px ;
     border:0;
 }
+
 
 /* Footer */
 .footer{

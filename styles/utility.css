@@ -29,6 +29,9 @@
 .flex-align-center{
     align-items:center;
 }
+.flex-justify-center{
+    justify-content:center;
+}
 .flex-column-gap-10{
     column-gap:10px;
 }

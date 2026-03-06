@@ -13,7 +13,17 @@
 <body>
     <div class="application-wrapper d-flex flex-column">
         <main class="main flex-grow-1 d-flex bg-primary">
-            <section class="servers flex-shrink-0 bg-primary"></section>
+            <section class="servers flex-shrink-0 bg-primary d-flex flex-column flex-column-gap-10 ">
+                <header class="discord-logo">
+                    <img class="main-logo" src="./imgs/logo.webp" alt="Il logo di Discord">
+                </header>
+                <section class="servers flex-shrink-0 d-flex flex-column flex-column-gap-10 ">
+                    <button class="btn server">
+                    <img class="server-image" src="./imgs/server arte.png">
+                </button>
+                </section>
+                
+            </section>
             <section class="chats flex-grow-1 bg-secondary b-radius-10 d-flex flex-column flex-row-gap-30">
                 <header class="chats-header">
                     <h2 class="chats-header-title primary-text-color">Messaggi</h2>
