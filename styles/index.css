@@ -91,15 +91,20 @@ body {
 }
 
 /*Chats*/
-.chats {
-  padding: 20px 10px 0 20px;
+.chats-header{
+    padding: 0 10px 0 10px;
 }
 .chats-header-title {
   margin-bottom: 10px;
 }
+.chat-list{
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
 .chat {
-  align-items: center;
-  width: 100%;
+  
+  flex-grow:1;
+  width: 95%;
   padding: 10px 20px 20px 10px;
   border-radius:10px;
   transition: background-color 0.5s ease;
@@ -162,27 +167,20 @@ body {
 /*Chats Footer*/
 .chats-footer {
   justify-content: flex-end;
-  padding: 0 30px 0 0;
+  margin: 10px 0;
 }
 .new-chat {
+ width:calc(512px/3);
   background: none;
   outline: none;
   border: none;
   position: relative;
   color: white;
-}
-.new-chat::before {
-  content: "\F4FA";
-  font-family: bootstrap-icons !important;
   font-size: 30px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  translate: -50% -100%;
-  transition: content 0.3s ease;
+  border-radius:20px;
 }
-.new-chat:hover::before {
-  content: "\F4F9";
+.new-chat:hover{
+    background: var(--bg-tertiary);
 }
 /* Footer */
 .footer {
