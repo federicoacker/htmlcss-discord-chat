@@ -11,12 +11,19 @@
 </head>
 
 <body>
+    <!-- Wrapper dell'intera applicazione, display:flex settato con flex-direction:column -->
     <div class="application-wrapper d-flex flex-column">
+        <!-- Sezione Main all'interno del wrapper, prima sezione delle 2 righe gestite dal display flex del wrapper-->
+
+        <!-- Main, display:flex perché diviso in 2 sezioni, la sidebar dei server e le chat-->
         <main class="main flex-grow-1 d-flex bg-primary">
+            <!-- Sidebar dei server, a sua volta un display:flex con flex-direction:column per gestire i server messi in verticale-->
             <section class="servers flex-shrink-0 bg-primary d-flex flex-column flex-column-gap-10 overflow-auto ">
+                <!--Button separato per il discord-logo-->
                 <button class="discord-logo">
                     <img class="main-logo" src="./imgs/logo.webp" alt="Il logo di Discord">
                 </button>
+                <!--Section dei server, a sua volta un display-flex con flex-column -->
                 <section class="servers flex-shrink-0 d-flex flex-column flex-row-gap-10 ">
                     <button class="btn server">
                         <img class="server-image" src="./imgs/server arte.png" alt="Immagine server arte">
@@ -39,9 +46,14 @@
                 </section>
 
             </section>
+            <!-- Section per le chats, a sua folta un display-flex, in colonna, per separare quello che sarà l'header delle chat,
+              dalla lista di chat,
+              dal tasto "nuova chat" che sarà un button in un footer-->
             <section class="chats flex-grow-1 bg-secondary b-radius-10 d-flex flex-column flex-row-gap-30">
+                <!--Header per le chat, formato da un semplice h2 seguito da una ul che gestisce i bottoni-->
                 <header class="chats-header">
                     <h2 class="chats-header-title primary-text-color">Messaggi</h2>
+                    <!-- ul con display-flex che gestisce i bottoni di search e add-friends -->
                     <ul class="header-buttons d-flex primary-text-color flex-column-gap-10">
                         <li class="search-button">
                             <button class="btn search-button bg-tertiary">
@@ -56,7 +68,10 @@
                         </li>
                     </ul>
                 </header>
+                <!--Ul che gestisce tutte le chat, display-flex con flex-direction column-->
                 <ul class="chat-list d-flex flex-column overflow-auto flex-row-gap-10">
+                    <!--List item che rappresenta una chat, è un display flex con una immagine del profilo e un div chat-card 
+                    che contiene l'icona di status, il nome del profilo e l'ultima chat-->
                     <li class="chat d-flex flex-column-gap-10 flex-shrink-0 secondary-text-color">
                         <img class="chat-img flex-shrink-0" src="imgs/profile1.webp"
                             alt="Foto del profilo di Giuseppe Rossi">
@@ -243,6 +258,7 @@
                     </li>
 
                 </ul>
+                <!-- Footer della chat, display flex che contiene un button con dentro un paragrafo con testo nuova chat-->
                 <footer class="chats-footer d-flex">
                     <button class="new-chat">
                         <p class="new-chat-text">Nuova Chat</p>
@@ -251,7 +267,11 @@
 
             </section>
         </main>
+        <!-- Sezione Footer all'interno del wrapper, seconda sezione delle 2 righe gestite dal display flex del wrapper 
+         è un display flex con jusify-evenly che contiene 3 buttons-->
         <footer class="footer flex-shrink-0 bg-footer d-flex flex-justify-evenly">
+            <!-- Bottoni del footer, ognuno è composto da un'icona e un paragrafo, 
+             sfruttando il display:block del paragrafo per andare direttamente a capo sotto l'icona-->
             <button class="btn footer-button home-button">
                 <i class="bi bi-houses-fill footer-icon"></i>
                 <p class="home-button-label footer-label">Pagina principale</p>
