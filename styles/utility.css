@@ -1,0 +1,21 @@
+:root{
+    --bg-primary: #141318;
+    --bg-secondary: #1C1D22;
+    --bg-tertiary: #373A43;
+    --bg-footer: #2D2D35;
+    --primary-txt-color: rgba(255,255,255,1);
+    --secondary-txt-color: rgba(255,255,255,0.5);
+}
+
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-grow-1{
+    flex-grow:1;
+}
+.h-0{
+    height:0;
+}
