@@ -48,7 +48,7 @@
             </section>
             <!-- Section per le chats, a sua folta un display-flex, in colonna, per separare quello che sarà l'header delle chat,
               dalla lista di chat,
-              dal tasto "nuova chat" che sarà un button in un footer-->
+              dal tasto "nuova chat" che sarà un button con position absolute->
             <section class="chats flex-grow-1 bg-secondary b-radius-10 d-flex flex-column flex-row-gap-10">
                 <!--Header per le chat, formato da un semplice h2 seguito da una ul che gestisce i bottoni-->
                 <header class="chats-header">
@@ -258,7 +258,7 @@
                     </li>
 
                 </ul>
-                <!-- Footer della chat, display flex che contiene un button con dentro un paragrafo con testo nuova chat-->
+                <!-- Button nuova chat, ha position absolute ed è posizionato in basso a destra rispetto al container "chats"-->
                 <button class="new-chat">
                     <i class="bi bi-chat-fill"></i>
                 </button>
