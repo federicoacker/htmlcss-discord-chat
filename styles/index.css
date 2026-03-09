@@ -171,7 +171,6 @@ body {
 
 /*New Chat Button*/
 .new-chat {
-  width: calc(100 / 4);
   background: none;
   outline: none;
   border: none;
