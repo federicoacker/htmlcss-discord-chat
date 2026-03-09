@@ -94,6 +94,7 @@ body {
 /*Chats*/
 .chats{
   position:relative;
+  overflow-x:auto;
 }
 .chats-header {
   padding: 0 10px 0 10px;
