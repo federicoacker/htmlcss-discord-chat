@@ -182,7 +182,7 @@ body {
   background: #5865f2;
   bottom: 0;
   right: 0;
-  padding:10px;
+  padding:15px;
   translate:-100% -50%;
   transition:background-color 0.3s ease;
 }
